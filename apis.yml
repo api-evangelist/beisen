@@ -1,8 +1,27 @@
 aid: beisen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beisen.png
 name: Beisen
-description: 'Beisen is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Beisen (北森) is a China-based enterprise software company and the country''s
+  largest cloud-native Human Capital Management (HCM) and talent-management SaaS provider,
+  delivered through its iTalent platform. Its integrated suite spans recruiting and
+  applicant tracking, talent assessment and psychometric testing, performance and goals
+  (OKR), core HR and personnel records, compensation, learning and development, and
+  succession planning for large enterprises. Beisen operates an Open Platform (open.italent.cn)
+  that lets partners and customers integrate HR data and workflows into the iTalent
+  ecosystem via web APIs. The company is publicly listed on the Hong Kong Stock Exchange
+  (9669) and was surfaced to the API Evangelist network as a SoftBank Vision Fund portfolio
+  company.'
 url: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- HR
+- Human Resources
+- Human Capital Management
+- HCM
+- Talent Management
+- Recruiting
+- SaaS
+- China
 apis: []
+common:
+- type: DomainSecurity
+  url: security/beisen-domain-security.yml
+- type: Website
+  url: https://www.beisen.com/
+- type: DeveloperPortal
+  url: https://open.italent.cn/
+- type: Packages
+  url: packages/beisen-packages.yml
+- type: SDKs
+  url: packages/beisen-packages.yml
+- type: LLMsTxt
+  url: llms/beisen-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,17 @@
+# Beisen
+
+> Beisen (北森) is China's largest cloud-native Human Capital Management (HCM) and talent-management SaaS provider, delivered through its iTalent platform. Its integrated suite spans recruiting and applicant tracking, talent assessment, performance and goals (OKR), core HR, compensation, learning, and succession planning for large enterprises. Beisen operates an Open Platform (open.italent.cn) for integrating HR data and workflows into the iTalent ecosystem. Publicly listed on the Hong Kong Stock Exchange (9669).
+
+## Company
+- [Website](https://www.beisen.com/): Beisen corporate website
+- [Open Platform (Developer Portal)](https://open.italent.cn/): iTalent open platform for partner and customer integrations
+
+## Packages
+- [@beisen/italent-jsapi](https://www.npmjs.com/package/@beisen/italent-jsapi): iTalent JSAPI bridge / JavaScript SDK for embedded iTalent apps
+- [@beisen/italent-widget](https://www.npmjs.com/package/@beisen/italent-widget): iTalent platform widget library
+- [@beisen-cmps/italent-icon](https://www.npmjs.com/package/@beisen-cmps/italent-icon): iTalent UI icon component library
+
+## Notes
+- No public OpenAPI/AsyncAPI specification was discoverable at the time of enrichment; the iTalent Open Platform documentation is served as an authenticated JavaScript single-page application.
+- No first-party server-side SDK (Python/Java/Go/.NET) was found on public package registries.
+- No /.well-known/ discovery documents, security.txt, bug-bounty, or trust-center were found on the public hosts.

@@ -1,0 +1,47 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/search?q=%40beisen
+notes: >-
+  First-party npm packages published under the @beisen and @beisen-cmps npm
+  scopes, supporting Beisen's iTalent open platform. @beisen/italent-jsapi is a
+  JavaScript SDK / JSAPI bridge for apps embedded in the iTalent platform; the
+  @beisen-cmps/* packages are the platform's front-end UI component libraries.
+  No first-party server-side SDK (Python/Java/Go/.NET) was found on public
+  registries (PyPI/Maven/NuGet/pkg.go.dev returned none). China-based enterprise
+  vendor; the GitHub org github.com/Beisen exists but publishes no public repos.
+packages:
+- language: javascript
+  registry: npm
+  name: "@beisen/italent-jsapi"
+  url: https://www.npmjs.com/package/@beisen/italent-jsapi
+  install: npm install @beisen/italent-jsapi
+  description: iTalent JSAPI bridge / JavaScript SDK for embedded iTalent apps
+  official: true
+- language: javascript
+  registry: npm
+  name: "@beisen/italent-widget"
+  url: https://www.npmjs.com/package/@beisen/italent-widget
+  install: npm install @beisen/italent-widget
+  description: iTalent platform widget library
+  official: true
+- language: javascript
+  registry: npm
+  name: "@beisen/helper"
+  url: https://www.npmjs.com/package/@beisen/helper
+  install: npm install @beisen/helper
+  description: Shared helper utilities for the iTalent front-end
+  official: true
+- language: javascript
+  registry: npm
+  name: "@beisen-cmps/italent-icon"
+  url: https://www.npmjs.com/package/@beisen-cmps/italent-icon
+  install: npm install @beisen-cmps/italent-icon
+  description: iTalent UI icon component library
+  official: true
+- language: javascript
+  registry: npm
+  name: "@beisen-cmps/i18n-resource-wrapper"
+  url: https://www.npmjs.com/package/@beisen-cmps/i18n-resource-wrapper
+  install: npm install @beisen-cmps/i18n-resource-wrapper
+  description: iTalent i18n resource wrapper component
+  official: true
